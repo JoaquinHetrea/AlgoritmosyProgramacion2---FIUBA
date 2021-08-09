@@ -1,0 +1,25 @@
+Entrega del Trabajo Practico Nº2: Juego de Tronos
+
+Para compilarlo, ejecutar la siguiente línea en la consola:  "gcc game_of_thrones.c cola.c abb.c lista.c juego_de_tronos.c -o [nombre]"
+Para ejecutarlo, utilizar el comando: "./[nombre]"
+
+A tener en cuenta: 
+ * Está simulación está diseñada para funcionar especificamente con la implementacion de arbol, lista y cola recibidas.
+ * Para que la simulación funcione correctamente se deben agregar como máximo 100 casas.
+ * Al agregar una casa desde un archivo secundario, en caso de que la casa ya exista, los integrantes serán agregados a la nueva casa.
+   pero los factores de envejecimiento y de nacimiento no se cambiarán.
+ * Al agregar una casa desde un archivo secundario, solo se leerá una única casa, es decir que si se quiere agregar más de una casa,
+   se deberá hacerlo desde distintos archivos.
+ * La simulación requiere que se encuentre un archivo de nombres similar al recibido en el mismo directorio, llamado "nombres.txt" de otra manera no funcionará.
+ * Los archivos que contengan casas e integrantes deberan respetar los formatos ya establecidos, de otra manera serán interpretados como erroneos.
+ * Si dos o más casas luego de los años simulados tienen igual cantidad de integrantes, la casa declarada ganadora será determinada alfabeticamente
+ 
+ FORMATO DE ARCHIVO DE CASAS: 
+ C;Nombre de la casa 1;Factor de Envejecimiento;Factor de Nacimiento
+ I;Nombre de Integrante 1;Edad
+ I;Nombre de Integrante 2;Edad
+           ... 
+ I;Nombre de Integrante n;Edad
+ C;Nombre de la casa 2;Factor de Envejecimiento;Factor de Nacimiento
+ I;Nombre de Integrante 1;Edad
+           ...
