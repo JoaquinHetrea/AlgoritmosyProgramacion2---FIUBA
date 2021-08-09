@@ -1,0 +1,14 @@
+Entrega de la implementación del TDA Hash Abierto, un iterador y sus correspondientes pruebas. Además se encuentra la implementación de la lista para su correcto funcionamiento.
+
+Para compilar las pruebas, escribir en la consola la línea: "gcc hash.c lista.c pruebas.c -o [nombre]"
+
+Para ejecutar las pruebas usar el comando "./[nombre]"
+
+Las pruebas ejecutan casos particulares de las distintas funciones:
+	* Insercion en los casos que la clave sea y no sea repetida
+	* Buscar elementos que se encuentren y que no se encuentren en el hash
+	* Borrar correctamente elementos que se encuentren en el Hash
+	* Borrados Multiples
+	* Que la cantidad de elementos se actualice correctamente luego de inserciones o borrados
+	* Que el iterador se mueva correctamente
+	* Se realiza además una prueba de dimensión, donde se insertan 100 elementos
