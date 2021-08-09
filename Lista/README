@@ -1,0 +1,8 @@
+Entrega de la implementación del TDA Lista con Nodos enlazados, un iterador externo, un iterador interno y sus correspondientes pruebas.
+
+Para compilar las pruebas, escribir en la consola la linea: "gcc lista.c pruebas.c -o [nombre]"
+
+Para ejecutar las pruebas usar el comando "./[nombre]"
+
+Esta implementación de la lista ademas de tener un puntero al nodo inicial, tiene un puntero al nodo final para hacer O(1) a funciones como lista_insertar() y lista_ultimo().
+Ademas tiene un contador con la cantidad de elementos en la lista.
