@@ -1,0 +1,6 @@
+Entrega de la implementación del TDA Arbol Binario de Busqueda, un iterador interno y sus correspondientes pruebas.
+
+Para compilar las pruebas, escribir en la consola la linea: "gcc arbol.c pruebas.c -o [nombre]"
+
+Para ejecutar las pruebas usar el comando "./[nombre]"
+
